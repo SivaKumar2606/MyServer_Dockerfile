@@ -4,7 +4,7 @@ ARG VERSION=latest
 
 FROM nginx:${VERSION}
 
-ENV DIRPATH=/home/myterm
+ENV DIRPATH /home/myterm
 
 RUN apt update && \
     apt upgrade && \
